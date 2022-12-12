@@ -15,7 +15,7 @@ const HeaderContent = () => {
 
     return (
         <>
-            {!matchesXs && <Search />}
+            {/* {!matchesXs && <Search />}
             {matchesXs && <Box sx={{ width: '100%', ml: 1 }} />}
 
             <IconButton
@@ -32,7 +32,7 @@ const HeaderContent = () => {
 
             <Notification />
             {!matchesXs && <Profile />}
-            {matchesXs && <MobileSection />}
+            {matchesXs && <MobileSection />} */}
         </>
     );
 };
